@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_8fnf2"]
 [ext_resource type="PackedScene" uid="uid://c0gpy0pye4jr6" path="res://tree.tscn" id="2_8o8ej"]
+[ext_resource type="PackedScene" uid="uid://cmd78407qbw32" path="res://green_slime.tscn" id="3_8o8ej"]
 
 [node name="Game" type="Node2D" unique_id=1991906421]
 y_sort_enabled = true
@@ -37,3 +38,6 @@ position = Vector2(1608, 891)
 
 [node name="StaticBody2D8" parent="." unique_id=573441490 instance=ExtResource("2_8o8ej")]
 position = Vector2(1441, 595)
+
+[node name="Green Slime" parent="." unique_id=1345601311 instance=ExtResource("3_8o8ej")]
+position = Vector2(612, 424)

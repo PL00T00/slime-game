@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://cmd78407qbw32"]
 
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_ee1ex"]
+[ext_resource type="Script" uid="uid://dhesrh1f3o7l1" path="res://green_slime.gd" id="1_vqynf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vqynf"]
 radius = 47.010635
 
 [node name="Green Slime" type="CharacterBody2D" unique_id=1345601311]
+script = ExtResource("1_vqynf")
 
 [node name="Slime" parent="." unique_id=2008890567 instance=ExtResource("1_ee1ex")]
 
