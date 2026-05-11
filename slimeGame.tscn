@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://dikcugpuvmeln"]
+
+[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_8fnf2"]
+[ext_resource type="PackedScene" uid="uid://c0gpy0pye4jr6" path="res://tree.tscn" id="2_8o8ej"]
+
+[node name="Game" type="Node2D" unique_id=1991906421]
+y_sort_enabled = true
+position = Vector2(3, 1)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1295458053]
+offset_right = 1931.0
+offset_bottom = 1088.0
+
+[node name="Player" parent="." unique_id=1376508517 instance=ExtResource("1_8fnf2")]
+position = Vector2(288, 151)
+
+[node name="StaticBody2D" parent="." unique_id=1651831554 instance=ExtResource("2_8o8ej")]
+position = Vector2(701, 257)
+
+[node name="StaticBody2D2" parent="." unique_id=1110897356 instance=ExtResource("2_8o8ej")]
+position = Vector2(1143, 348)
+
+[node name="StaticBody2D3" parent="." unique_id=1482007483 instance=ExtResource("2_8o8ej")]
+position = Vector2(211, 539)
+
+[node name="StaticBody2D4" parent="." unique_id=1767269126 instance=ExtResource("2_8o8ej")]
+position = Vector2(933, 637)
+
+[node name="StaticBody2D5" parent="." unique_id=1965181096 instance=ExtResource("2_8o8ej")]
+position = Vector2(1715, 174)
+
+[node name="StaticBody2D6" parent="." unique_id=492149873 instance=ExtResource("2_8o8ej")]
+position = Vector2(302, 906)
+
+[node name="StaticBody2D7" parent="." unique_id=1208773954 instance=ExtResource("2_8o8ej")]
+position = Vector2(1608, 891)
+
+[node name="StaticBody2D8" parent="." unique_id=573441490 instance=ExtResource("2_8o8ej")]
+position = Vector2(1441, 595)

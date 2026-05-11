@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cmd78407qbw32"]
+
+[ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_ee1ex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vqynf"]
+radius = 47.010635
+
+[node name="Green Slime" type="CharacterBody2D" unique_id=1345601311]
+
+[node name="Slime" parent="." unique_id=2008890567 instance=ExtResource("1_ee1ex")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=32115299]
+position = Vector2(0, -34)
+shape = SubResource("CircleShape2D_vqynf")
