@@ -8,9 +8,14 @@
 y_sort_enabled = true
 position = Vector2(3, 1)
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1295458053]
-offset_right = 1931.0
-offset_bottom = 1088.0
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2049106456]
+layer = -67
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1295458053]
+offset_left = 3.0
+offset_top = 1.0
+offset_right = 1934.0
+offset_bottom = 1089.0
 
 [node name="Player" parent="." unique_id=1376508517 instance=ExtResource("1_8fnf2")]
 position = Vector2(710, 632)
@@ -40,19 +45,19 @@ position = Vector2(1608, 891)
 position = Vector2(1441, 595)
 
 [node name="Green Slime" parent="." unique_id=1345601311 instance=ExtResource("3_8o8ej")]
-position = Vector2(745, 580)
+position = Vector2(1606, 637)
 
 [node name="Green Slime6" parent="." unique_id=111166321 instance=ExtResource("3_8o8ej")]
 position = Vector2(894, 489)
 
 [node name="Green Slime2" parent="." unique_id=1837451636 instance=ExtResource("3_8o8ej")]
-position = Vector2(655, 590)
+position = Vector2(936, 213)
 
 [node name="Green Slime3" parent="." unique_id=1860093699 instance=ExtResource("3_8o8ej")]
-position = Vector2(627, 669)
+position = Vector2(500, 952)
 
 [node name="Green Slime5" parent="." unique_id=1423896570 instance=ExtResource("3_8o8ej")]
-position = Vector2(694, 720)
+position = Vector2(168, 159)
 
 [node name="Green Slime4" parent="." unique_id=1137035744 instance=ExtResource("3_8o8ej")]
-position = Vector2(797, 704)
+position = Vector2(1002, 890)
