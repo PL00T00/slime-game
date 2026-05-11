@@ -13,7 +13,7 @@ offset_right = 1931.0
 offset_bottom = 1088.0
 
 [node name="Player" parent="." unique_id=1376508517 instance=ExtResource("1_8fnf2")]
-position = Vector2(288, 151)
+position = Vector2(710, 632)
 
 [node name="StaticBody2D" parent="." unique_id=1651831554 instance=ExtResource("2_8o8ej")]
 position = Vector2(701, 257)
@@ -40,4 +40,19 @@ position = Vector2(1608, 891)
 position = Vector2(1441, 595)
 
 [node name="Green Slime" parent="." unique_id=1345601311 instance=ExtResource("3_8o8ej")]
-position = Vector2(612, 424)
+position = Vector2(745, 580)
+
+[node name="Green Slime6" parent="." unique_id=111166321 instance=ExtResource("3_8o8ej")]
+position = Vector2(894, 489)
+
+[node name="Green Slime2" parent="." unique_id=1837451636 instance=ExtResource("3_8o8ej")]
+position = Vector2(655, 590)
+
+[node name="Green Slime3" parent="." unique_id=1860093699 instance=ExtResource("3_8o8ej")]
+position = Vector2(627, 669)
+
+[node name="Green Slime5" parent="." unique_id=1423896570 instance=ExtResource("3_8o8ej")]
+position = Vector2(694, 720)
+
+[node name="Green Slime4" parent="." unique_id=1137035744 instance=ExtResource("3_8o8ej")]
+position = Vector2(797, 704)

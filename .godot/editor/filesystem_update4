@@ -1,5 +1,5 @@
-res://tree.tscn
-res://slimeGame.tscn
-res://green_slime.tscn
 res://green_slime.gd
+res://slimeGame.tscn
+res://tree.tscn
+res://green_slime.tscn
 res://player.tscn

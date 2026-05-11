@@ -1,11 +1,13 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778476808
+::res://::1778489749
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1771649366::0::1::::<><><>0<>0<><>::
+green_slime.gd::GDScript::7659965140021496544::1778478915::0::1::::<>CharacterBody2D<><>0<>0<><>::
+green_slime.tscn::PackedScene::5623304062544803699::1778478979::0::1::::<><><>0<>0<><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>uid://dhesrh1f3o7l1::::res://green_slime.gd
 icon.png::CompressedTexture2D::15047351210411190::1771649366::1778390380::1::::<><><>0<>0<>1b715dbefff322edf369d96dc8dd5e44<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 player.gd::GDScript::1700623032726953666::1778459082::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::6636363802798909755::1778459172::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://yh2ao5or56lq::::res://player.gd
-slimeGame.tscn::PackedScene::7741574066837206147::1778459171::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://player.tscn<>uid://c0gpy0pye4jr6::::res://tree.tscn
-tree.tscn::PackedScene::6540903676159351021::1778459173::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://characters/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
+player.tscn::PackedScene::6636363802798909755::1778478980::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://yh2ao5or56lq::::res://player.gd
+slimeGame.tscn::PackedScene::7741574066837206147::1778478976::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://player.tscn<>uid://c0gpy0pye4jr6::::res://tree.tscn<>uid://cmd78407qbw32::::res://green_slime.tscn
+tree.tscn::PackedScene::6540903676159351021::1778478978::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://characters/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
 ::res://addons/::1771649366
 ::res://addons/colorpicker_presets/::1771649366
 colorpicker_presets.gd::GDScript::2597531570939366545::1771649366::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -41,8 +43,6 @@ impact.tscn::PackedScene::706737085132625066::1771649366::0::1::::<><><>0<>0<><>
 muzzle_flash.gd::GDScript::2184711477186327130::1771649366::0::1::::<>Node2D<><>0<>0<><>::
 muzzle_flash.png::CompressedTexture2D::8165061320742786479::1771649366::1778390380::1::::<><><>0<>0<>d63a7f225b1e1679c8cc4123d78e692f<>res://.godot/imported/muzzle_flash.png-752b19c1a1a60c24eac6f205d487f2ea.ctex::
 muzzle_flash.tscn::PackedScene::6601472980654318439::1771649366::0::1::::<><><>0<>0<><>::uid://6ej4465c3oxu::::res://pistol/muzzle_flash/muzzle_flash.gd<>uid://brgpjilf7s2ul::::res://pistol/muzzle_flash/muzzle_flash.png
-::res://Slime-game/::1778390455
-README.md::TextFile::-1::1778390455::0::1::::<><><>0<>0<><>::
 ::res://smoke_explosion/::1778390380
 circle_32.png::CompressedTexture2D::7675991244507767596::1771649366::1778390380::1::::<><><>0<>0<>794dd8718e69649603dc32baefde6578<>res://.godot/imported/circle_32.png-ff53eadac5c62484a55afe7e47d5145f.ctex::
 smoke_explosion.gd::GDScript::95110621957468878::1771649366::0::1::::<>Node2D<><>0<>0<><>::
